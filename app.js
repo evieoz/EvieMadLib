@@ -55,3 +55,30 @@
    - Comments: Explain each step in your code.
    - GitHub: Commit often with clear messages; publish on GitHub Pages.
 */
+
+
+let person = prompt("Person (For example: grandma,mom)");
+let gift1 = prompt("First gift they gave you (noun)");
+let gift2 = prompt("Second gift they gave you (animal)");
+let adjective1 =prompt("Adjective to describe gift (adjective)")
+let gift3 = prompt("Third gift they gave you (noun plural)");
+let verb1= prompt("Verb fourth gift is doing (verb)")
+let gift4 = prompt("Fourth gift they gave you (animal plural)");
+let gift5= prompt("Fifth gift they gave you (dream house)")
+let gift6 = prompt("Sixth gift they gave you (celebrity crush)")
+let gift7 = prompt("Seventh gift they gave you (favorite actor)")
+let gift8 = prompt("Eighth gift they gave you (favorite food)")
+let gift9 = prompt("Ninth gift they gave you (verb)")
+let gift10 = prompt("Tenth gift they gave you (favorite sports team plural)")
+let gift11 = prompt("Eleventh gift they gave you (noun plural)")
+let gift12 = prompt("Twelfth gift they gave you (animal plural)")
+let verb2 = prompt("Verb twelfth gift is doing (verb)")
+
+
+
+
+let story=`
+
+<p>On the first day of Christmas, my ${person} gave to me, a ${gift1}. On the second day of Christmas, my ${person} gave to me two ${gift2}, and a ${gift1}. On the third day of Christmas, ${person} gave to me three ${adjective1} ${gift3}, two ${gift2} and a ${gift1}. On the fourth day of Christmas, ${person} gave to me four ${verb1} ${gift4}, three ${adjective1} ${gift3} two ${gift2} and a ${gift1}. On the fifth day of Christmas, ${person} gave to me five ${gift5}, four ${verb1} ${gift4}, three ${adjective1} ${gift3}, two ${gift2} and a ${gift1}. On the sixth day of Christmas, ${person} gave to me six ${gift6}, five ${gift5}, four ${verb1} ${gift4}, three ${adjective1} ${gift3}, two ${gift2} and a ${gift1}. On the seventh day of Christmas, ${person} gave to me seven ${gift7}, six ${gift6}, five ${gift5}, four ${verb1} ${gift4}, three ${adjective1} ${gift3}, two ${gift2} and a ${gift1}. On the eighth day of Christmas, ${person} gave to me eight ${gift8}, seven ${gift7}, six ${gift6}, five ${gift5}, four ${verb1} ${gift4}, three ${adjective1} ${gift3}, two ${gift2} and a ${gift1}. On the ninth day of Christmas, nine ladies ${gift9}, eight ${gift8}, seven ${gift7}, six ${gift6}, five ${gift5}, four ${verb1} ${gift4}, three ${adjective1} ${gift3}, two ${gift2} and a ${gift1}. On the tenth day of Christmas, ${person} gave to me ten ${gift10}, nine ladies ${gift9}, eight ${gift8}, seven ${gift7}, six ${gift6}, five ${gift5}, four ${verb1} ${gift4}, three ${adjective1} ${gift3}, two ${gift2} and a ${gift1}. On the eleventh day of Christmas, ${person} gave to me eleven ${gift11}, ten ${gift10}, nine ladies ${gift9}, eight ${gift8}, seven ${gift7}, six ${gift6}, five ${gift5}, four ${verb1} ${gift4}, three ${adjective1} ${gift3}, two ${gift2} and a ${gift1}. On the twelfth day of Christmas ${person} gave to me twelve ${gift12} ${verb2}, eleven ${gift11}, ten ${gift10}, nine ladies ${gift9}, eight ${gift8}, seven ${gift7}, six ${gift6}, five ${gift5}, four ${verb1} ${gift4}, three ${adjective1} ${gift3}, two ${gift2} and a ${gift1}</p>`
+
+document.getElementById("madlib-output").innerHTML= story
