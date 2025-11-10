@@ -14,10 +14,19 @@
 }
 
 body {
-  background-color: lightblue;
+  margin: 5px;
+  background-color: rgb(211, 172, 137);
 }
 
 .card {
-  background-color: bisque;
-  border: 3px solid white;
+  background-color: rgb(158, 255, 249);
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h1 {
+  color: #000000;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  shadow
 }
