@@ -13,20 +13,63 @@
   font-size: 1.05rem;
 }
 
-body {
+html, body {
   margin: 5px;
-  background-color: rgb(211, 172, 137);
+  background-color: rgba(164, 201, 231, 0.836);
+  cursor: url('snowman.png'), auto;
+}
+
+:hover {
+    cursor: url('snowman.png'), auto;
+}
+
+.site-header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+
 }
 
 .card {
-  background-color: rgb(158, 255, 249);
-  border: 3px solid rgb(0, 0, 0);
+  background-color: rgb(204, 45, 45);
+  border: 3px solid rgb(255, 255, 255);
   padding: 10px;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color:#ffffff;
+  font-family: "new-farm", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.5s ease 0s;
+}
+
+.card:hover {
+  transition: all 0.5s ease 0s;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 h1 {
-  color: #000000;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  shadow
+  color: #ffffff;
+  font-family: "new-farm", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.5s ease 0s;
+}
+
+h1:hover {
+  transition: all 0.5s ease 0s;
+  text-shadow: 2px 2px 4px rgb(204, 45, 45);
+}
+
+
+
+.site-footer {
+  margin-top: 15px;
+  font-family: "new-farm", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  transition: all 0.5s ease 0s;
+}
+
+.site-footer:hover {
+  transition: all 0.5s ease 0s;
+  text-shadow: 2px 2px 4px rgb(204, 45, 45);
 }
